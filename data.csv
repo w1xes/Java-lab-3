@@ -1,0 +1,6 @@
+# Format: id,name,age
+1,John Doe,28
+2,Jane Smith,35
+invalid,line
+3,BadAge,999
+4,   Anna   ,22

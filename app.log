@@ -1,0 +1,156 @@
+лист. 07, 2025 4:56:15 ПП Main main
+INFO: Starting data read from: data.csv
+лист. 07, 2025 4:56:15 ПП DataReader readPersons
+INFO: Opening file: data.csv
+лист. 07, 2025 4:56:15 ПП Person <init>
+INFO: Created Person: Person{id=1, name='John Doe', age=28}
+лист. 07, 2025 4:56:15 ПП Person <init>
+INFO: Created Person: Person{id=2, name='Jane Smith', age=35}
+лист. 07, 2025 4:56:15 ПП DataReader readPersons
+WARNING: Skipping invalid line 5: Invalid number of fields at line 5: invalid,line
+лист. 07, 2025 4:56:15 ПП DataReader readPersons
+FINE: Closed file: data.csv
+лист. 07, 2025 4:56:15 ПП Main main
+SEVERE: Failed to read persons: Error parsing line 5: Invalid number of fields at line 5: invalid,line
+лист. 07, 2025 4:56:15 ПП Main main
+INFO: Main finished execution (finally).
+
+лист. 07, 2025 4:56:15 ПП TestRunner runAll
+INFO: Starting tests...
+лист. 07, 2025 4:56:15 ПП Person <init>
+INFO: Created Person: Person{id=1, name='Alice', age=30}
+лист. 07, 2025 4:56:15 ПП TestRunner runAll
+INFO: testPersonCreationValid passed
+лист. 07, 2025 4:56:15 ПП TestRunner testPersonCreationInvalid
+FINE: Received expected InvalidDataException: ID must be positive, got: -1
+лист. 07, 2025 4:56:15 ПП TestRunner runAll
+INFO: testPersonCreationInvalid passed
+лист. 07, 2025 4:56:15 ПП DataReader readPersons
+INFO: Opening file: data.csv
+лист. 07, 2025 4:56:15 ПП Person <init>
+INFO: Created Person: Person{id=1, name='John Doe', age=28}
+лист. 07, 2025 4:56:15 ПП Person <init>
+INFO: Created Person: Person{id=2, name='Jane Smith', age=35}
+лист. 07, 2025 4:56:15 ПП DataReader readPersons
+WARNING: Skipping invalid line 5: Invalid number of fields at line 5: invalid,line
+лист. 07, 2025 4:56:15 ПП DataReader readPersons
+FINE: Closed file: data.csv
+лист. 07, 2025 4:56:15 ПП TestRunner runAll
+SEVERE: testDataReaderParsing failed: Error parsing line 5: Invalid number of fields at line 5: invalid,line
+InvalidDataException: Error parsing line 5: Invalid number of fields at line 5: invalid,line
+	at DataReader.readPersons(DataReader.java:46)
+	at TestRunner.testDataReaderParsing(TestRunner.java:66)
+	at TestRunner.runAll(TestRunner.java:31)
+	at Main.main(Main.java:30)
+Caused by: InvalidDataException: Invalid number of fields at line 5: invalid,line
+	at DataReader.readPersons(DataReader.java:33)
+	... 3 more
+
+лист. 07, 2025 4:56:15 ПП TestRunner runAll
+INFO: Tests finished. Passed: 2, Failed: 1
+лист. 07, 2025 4:57:30 ПП Main main
+INFO: Starting data read from: data.csv
+лист. 07, 2025 4:57:30 ПП DataReader readPersons
+INFO: Opening file: data.csv
+лист. 07, 2025 4:57:30 ПП Person <init>
+INFO: Created Person: Person{id=1, name='John Doe', age=28}
+лист. 07, 2025 4:57:30 ПП Person <init>
+INFO: Created Person: Person{id=2, name='Jane Smith', age=35}
+лист. 07, 2025 4:57:30 ПП DataReader readPersons
+WARNING: Skipping malformed line 5: invalid,line
+лист. 07, 2025 4:57:30 ПП DataReader readPersons
+WARNING: Skipping invalid line 6: Age must be between 0 and 150, got: 999
+лист. 07, 2025 4:57:30 ПП Person <init>
+INFO: Created Person: Person{id=4, name='Anna', age=22}
+лист. 07, 2025 4:57:30 ПП DataReader readPersons
+INFO: Finished reading file: data.csv, loaded persons: 3
+лист. 07, 2025 4:57:30 ПП DataReader readPersons
+FINE: Closed file: data.csv
+лист. 07, 2025 4:57:30 ПП Main main
+INFO: Successfully created 3 Person objects.
+лист. 07, 2025 4:57:30 ПП Main main
+INFO: Main finished execution (finally).
+
+лист. 07, 2025 4:57:30 ПП TestRunner runAll
+INFO: Starting tests...
+лист. 07, 2025 4:57:30 ПП Person <init>
+INFO: Created Person: Person{id=1, name='Alice', age=30}
+лист. 07, 2025 4:57:30 ПП TestRunner runAll
+INFO: testPersonCreationValid passed
+лист. 07, 2025 4:57:30 ПП TestRunner testPersonCreationInvalid
+FINE: Received expected InvalidDataException: ID must be positive, got: -1
+лист. 07, 2025 4:57:30 ПП TestRunner runAll
+INFO: testPersonCreationInvalid passed
+лист. 07, 2025 4:57:30 ПП DataReader readPersons
+INFO: Opening file: data.csv
+лист. 07, 2025 4:57:30 ПП Person <init>
+INFO: Created Person: Person{id=1, name='John Doe', age=28}
+лист. 07, 2025 4:57:30 ПП Person <init>
+INFO: Created Person: Person{id=2, name='Jane Smith', age=35}
+лист. 07, 2025 4:57:30 ПП DataReader readPersons
+WARNING: Skipping malformed line 5: invalid,line
+лист. 07, 2025 4:57:30 ПП DataReader readPersons
+WARNING: Skipping invalid line 6: Age must be between 0 and 150, got: 999
+лист. 07, 2025 4:57:30 ПП Person <init>
+INFO: Created Person: Person{id=4, name='Anna', age=22}
+лист. 07, 2025 4:57:30 ПП DataReader readPersons
+INFO: Finished reading file: data.csv, loaded persons: 3
+лист. 07, 2025 4:57:30 ПП DataReader readPersons
+FINE: Closed file: data.csv
+лист. 07, 2025 4:57:30 ПП TestRunner runAll
+INFO: testDataReaderParsing passed
+лист. 07, 2025 4:57:30 ПП TestRunner runAll
+INFO: Tests finished. Passed: 3, Failed: 0
+лист. 07, 2025 5:03:46 ПП Main main
+INFO: Starting data read from: data.csv
+лист. 07, 2025 5:03:46 ПП DataReader readPersons
+INFO: Opening file: data.csv
+лист. 07, 2025 5:03:46 ПП Person <init>
+INFO: Created Person: Person{id=1, name='John Doe', age=28}
+лист. 07, 2025 5:03:46 ПП Person <init>
+INFO: Created Person: Person{id=2, name='Jane Smith', age=35}
+лист. 07, 2025 5:03:46 ПП DataReader readPersons
+WARNING: Skipping malformed line 4: invalid,line
+лист. 07, 2025 5:03:46 ПП DataReader readPersons
+WARNING: Skipping invalid line 5: Age must be between 0 and 150, got: 999
+лист. 07, 2025 5:03:46 ПП Person <init>
+INFO: Created Person: Person{id=4, name='Anna', age=22}
+лист. 07, 2025 5:03:46 ПП DataReader readPersons
+INFO: Finished reading file: data.csv, loaded persons: 3
+лист. 07, 2025 5:03:46 ПП DataReader readPersons
+FINE: Closed file: data.csv
+лист. 07, 2025 5:03:46 ПП Main main
+INFO: Successfully created 3 Person objects.
+лист. 07, 2025 5:03:46 ПП Main main
+INFO: Main finished execution (finally).
+
+лист. 07, 2025 5:03:46 ПП TestRunner runAll
+INFO: Starting tests...
+лист. 07, 2025 5:03:46 ПП Person <init>
+INFO: Created Person: Person{id=1, name='Alice', age=30}
+лист. 07, 2025 5:03:46 ПП TestRunner runAll
+INFO: testPersonCreationValid passed
+лист. 07, 2025 5:03:46 ПП TestRunner testPersonCreationInvalid
+FINE: Received expected InvalidDataException: ID must be positive, got: -1
+лист. 07, 2025 5:03:46 ПП TestRunner runAll
+INFO: testPersonCreationInvalid passed
+лист. 07, 2025 5:03:46 ПП DataReader readPersons
+INFO: Opening file: data.csv
+лист. 07, 2025 5:03:46 ПП Person <init>
+INFO: Created Person: Person{id=1, name='John Doe', age=28}
+лист. 07, 2025 5:03:46 ПП Person <init>
+INFO: Created Person: Person{id=2, name='Jane Smith', age=35}
+лист. 07, 2025 5:03:46 ПП DataReader readPersons
+WARNING: Skipping malformed line 4: invalid,line
+лист. 07, 2025 5:03:46 ПП DataReader readPersons
+WARNING: Skipping invalid line 5: Age must be between 0 and 150, got: 999
+лист. 07, 2025 5:03:46 ПП Person <init>
+INFO: Created Person: Person{id=4, name='Anna', age=22}
+лист. 07, 2025 5:03:46 ПП DataReader readPersons
+INFO: Finished reading file: data.csv, loaded persons: 3
+лист. 07, 2025 5:03:46 ПП DataReader readPersons
+FINE: Closed file: data.csv
+лист. 07, 2025 5:03:46 ПП TestRunner runAll
+INFO: testDataReaderParsing passed
+лист. 07, 2025 5:03:46 ПП TestRunner runAll
+INFO: Tests finished. Passed: 3, Failed: 0
