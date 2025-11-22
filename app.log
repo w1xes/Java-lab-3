@@ -154,3 +154,387 @@ FINE: Closed file: data.csv
 INFO: testDataReaderParsing passed
 лист. 07, 2025 5:03:46 ПП TestRunner runAll
 INFO: Tests finished. Passed: 3, Failed: 0
+лист. 23, 2025 1:04:07 ДП Person <init>
+INFO: Created Person: Person{id=1, name='Frank', age=0}
+лист. 23, 2025 1:04:07 ДП Person <init>
+INFO: Created Person: Person{id=2, name='Grace', age=150}
+лист. 23, 2025 1:04:07 ДП Person <init>
+INFO: Created Person: Person{id=1, name='John Doe', age=30}
+лист. 23, 2025 1:04:07 ДП Person <init>
+INFO: Created Person: Person{id=1, name='Alice', age=25}
+лист. 23, 2025 1:04:07 ДП Person <init>
+INFO: Created Person: Person{id=42, name='Henry', age=33}
+лист. 23, 2025 1:04:11 ДП Person <init>
+INFO: Created Person: Person{id=1, name='Frank', age=0}
+лист. 23, 2025 1:04:11 ДП Person <init>
+INFO: Created Person: Person{id=2, name='Grace', age=150}
+лист. 23, 2025 1:04:11 ДП Person <init>
+INFO: Created Person: Person{id=1, name='John Doe', age=30}
+лист. 23, 2025 1:04:11 ДП Person <init>
+INFO: Created Person: Person{id=1, name='Alice', age=25}
+лист. 23, 2025 1:04:11 ДП Person <init>
+INFO: Created Person: Person{id=42, name='Henry', age=33}
+лист. 23, 2025 1:04:26 ДП DataReader readPersons
+INFO: Opening file: nonexistent_file.csv
+лист. 23, 2025 1:04:26 ДП DataReader readPersons
+SEVERE: File not found: nonexistent_file.csv - nonexistent_file.csv (The system cannot find the file specified)
+java.io.FileNotFoundException: nonexistent_file.csv (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at DataReader.readPersons(DataReader.java:18)
+	at DataReaderTest.testReadPersonsFileNotFound(DataReaderTest.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+лист. 23, 2025 1:04:26 ДП DataReader readPersons
+INFO: Opening file: C:\Users\Yurii\AppData\Local\Temp\test_persons293915608418075069.csv
+лист. 23, 2025 1:04:26 ДП DataReader readPersons
+INFO: Finished reading file: C:\Users\Yurii\AppData\Local\Temp\test_persons293915608418075069.csv, loaded persons: 0
+лист. 23, 2025 1:04:26 ДП DataReader readPersons
+FINE: Closed file: C:\Users\Yurii\AppData\Local\Temp\test_persons293915608418075069.csv
+лист. 23, 2025 1:04:26 ДП DataReader readPersons
+INFO: Opening file: C:\Users\Yurii\AppData\Local\Temp\test_persons7504678800648341054.csv
+лист. 23, 2025 1:04:26 ДП Person <init>
+INFO: Created Person: Person{id=1, name='Alice', age=25}
+лист. 23, 2025 1:04:26 ДП Person <init>
+INFO: Created Person: Person{id=2, name='Bob', age=30}
+лист. 23, 2025 1:04:26 ДП DataReader readPersons
+INFO: Finished reading file: C:\Users\Yurii\AppData\Local\Temp\test_persons7504678800648341054.csv, loaded persons: 2
+лист. 23, 2025 1:04:26 ДП DataReader readPersons
+FINE: Closed file: C:\Users\Yurii\AppData\Local\Temp\test_persons7504678800648341054.csv
+лист. 23, 2025 1:04:26 ДП DataReader readPersons
+INFO: Opening file: C:\Users\Yurii\AppData\Local\Temp\test_persons2256054352892800078.csv
+лист. 23, 2025 1:04:26 ДП Person <init>
+INFO: Created Person: Person{id=1, name='Alice', age=25}
+лист. 23, 2025 1:04:26 ДП Person <init>
+INFO: Created Person: Person{id=2, name='Bob', age=30}
+лист. 23, 2025 1:04:26 ДП DataReader readPersons
+INFO: Finished reading file: C:\Users\Yurii\AppData\Local\Temp\test_persons2256054352892800078.csv, loaded persons: 2
+лист. 23, 2025 1:04:26 ДП DataReader readPersons
+FINE: Closed file: C:\Users\Yurii\AppData\Local\Temp\test_persons2256054352892800078.csv
+лист. 23, 2025 1:04:26 ДП DataReader readPersons
+INFO: Opening file: C:\Users\Yurii\AppData\Local\Temp\test_persons6573025670671005887.csv
+лист. 23, 2025 1:04:26 ДП Person <init>
+INFO: Created Person: Person{id=1, name='Alice', age=25}
+лист. 23, 2025 1:04:26 ДП DataReader readPersons
+WARNING: Skipping malformed line 2: invalid,line
+лист. 23, 2025 1:04:26 ДП Person <init>
+INFO: Created Person: Person{id=2, name='Bob', age=30}
+лист. 23, 2025 1:04:26 ДП DataReader readPersons
+WARNING: Skipping invalid line 4: Age must be between 0 and 150, got: 999
+лист. 23, 2025 1:04:26 ДП DataReader readPersons
+INFO: Finished reading file: C:\Users\Yurii\AppData\Local\Temp\test_persons6573025670671005887.csv, loaded persons: 2
+лист. 23, 2025 1:04:26 ДП DataReader readPersons
+FINE: Closed file: C:\Users\Yurii\AppData\Local\Temp\test_persons6573025670671005887.csv
+лист. 23, 2025 1:04:26 ДП DataReader readPersons
+INFO: Opening file: C:\Users\Yurii\AppData\Local\Temp\test_persons1342249060642331254.csv
+лист. 23, 2025 1:04:26 ДП Person <init>
+INFO: Created Person: Person{id=1, name='John Doe', age=35}
+лист. 23, 2025 1:04:26 ДП Person <init>
+INFO: Created Person: Person{id=2, name='Jane', age=28}
+лист. 23, 2025 1:04:26 ДП DataReader readPersons
+INFO: Finished reading file: C:\Users\Yurii\AppData\Local\Temp\test_persons1342249060642331254.csv, loaded persons: 2
+лист. 23, 2025 1:04:26 ДП DataReader readPersons
+FINE: Closed file: C:\Users\Yurii\AppData\Local\Temp\test_persons1342249060642331254.csv
+лист. 23, 2025 1:04:32 ДП Person <init>
+INFO: Created Person: Person{id=1, name='Frank', age=0}
+лист. 23, 2025 1:04:32 ДП Person <init>
+INFO: Created Person: Person{id=2, name='Grace', age=150}
+лист. 23, 2025 1:04:32 ДП Person <init>
+INFO: Created Person: Person{id=1, name='John Doe', age=30}
+лист. 23, 2025 1:04:32 ДП Person <init>
+INFO: Created Person: Person{id=1, name='Alice', age=25}
+лист. 23, 2025 1:04:32 ДП Person <init>
+INFO: Created Person: Person{id=42, name='Henry', age=33}
+лист. 23, 2025 1:04:32 ДП DataReader readPersons
+INFO: Opening file: nonexistent_file.csv
+лист. 23, 2025 1:04:32 ДП DataReader readPersons
+SEVERE: File not found: nonexistent_file.csv - nonexistent_file.csv (The system cannot find the file specified)
+java.io.FileNotFoundException: nonexistent_file.csv (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at DataReader.readPersons(DataReader.java:18)
+	at DataReaderTest.testReadPersonsFileNotFound(DataReaderTest.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+лист. 23, 2025 1:04:32 ДП DataReader readPersons
+INFO: Opening file: C:\Users\Yurii\AppData\Local\Temp\test_persons9994270847556736867.csv
+лист. 23, 2025 1:04:32 ДП DataReader readPersons
+INFO: Finished reading file: C:\Users\Yurii\AppData\Local\Temp\test_persons9994270847556736867.csv, loaded persons: 0
+лист. 23, 2025 1:04:32 ДП DataReader readPersons
+FINE: Closed file: C:\Users\Yurii\AppData\Local\Temp\test_persons9994270847556736867.csv
+лист. 23, 2025 1:04:32 ДП DataReader readPersons
+INFO: Opening file: C:\Users\Yurii\AppData\Local\Temp\test_persons18418108135891199343.csv
+лист. 23, 2025 1:04:32 ДП Person <init>
+INFO: Created Person: Person{id=1, name='Alice', age=25}
+лист. 23, 2025 1:04:32 ДП Person <init>
+INFO: Created Person: Person{id=2, name='Bob', age=30}
+лист. 23, 2025 1:04:32 ДП DataReader readPersons
+INFO: Finished reading file: C:\Users\Yurii\AppData\Local\Temp\test_persons18418108135891199343.csv, loaded persons: 2
+лист. 23, 2025 1:04:32 ДП DataReader readPersons
+FINE: Closed file: C:\Users\Yurii\AppData\Local\Temp\test_persons18418108135891199343.csv
+лист. 23, 2025 1:04:32 ДП DataReader readPersons
+INFO: Opening file: C:\Users\Yurii\AppData\Local\Temp\test_persons9725413502559416671.csv
+лист. 23, 2025 1:04:32 ДП Person <init>
+INFO: Created Person: Person{id=1, name='Alice', age=25}
+лист. 23, 2025 1:04:32 ДП Person <init>
+INFO: Created Person: Person{id=2, name='Bob', age=30}
+лист. 23, 2025 1:04:32 ДП DataReader readPersons
+INFO: Finished reading file: C:\Users\Yurii\AppData\Local\Temp\test_persons9725413502559416671.csv, loaded persons: 2
+лист. 23, 2025 1:04:32 ДП DataReader readPersons
+FINE: Closed file: C:\Users\Yurii\AppData\Local\Temp\test_persons9725413502559416671.csv
+лист. 23, 2025 1:04:32 ДП DataReader readPersons
+INFO: Opening file: C:\Users\Yurii\AppData\Local\Temp\test_persons13459019192497213750.csv
+лист. 23, 2025 1:04:32 ДП Person <init>
+INFO: Created Person: Person{id=1, name='Alice', age=25}
+лист. 23, 2025 1:04:32 ДП DataReader readPersons
+WARNING: Skipping malformed line 2: invalid,line
+лист. 23, 2025 1:04:32 ДП Person <init>
+INFO: Created Person: Person{id=2, name='Bob', age=30}
+лист. 23, 2025 1:04:32 ДП DataReader readPersons
+WARNING: Skipping invalid line 4: Age must be between 0 and 150, got: 999
+лист. 23, 2025 1:04:32 ДП DataReader readPersons
+INFO: Finished reading file: C:\Users\Yurii\AppData\Local\Temp\test_persons13459019192497213750.csv, loaded persons: 2
+лист. 23, 2025 1:04:32 ДП DataReader readPersons
+FINE: Closed file: C:\Users\Yurii\AppData\Local\Temp\test_persons13459019192497213750.csv
+лист. 23, 2025 1:04:32 ДП DataReader readPersons
+INFO: Opening file: C:\Users\Yurii\AppData\Local\Temp\test_persons4540060991018061684.csv
+лист. 23, 2025 1:04:32 ДП Person <init>
+INFO: Created Person: Person{id=1, name='John Doe', age=35}
+лист. 23, 2025 1:04:32 ДП Person <init>
+INFO: Created Person: Person{id=2, name='Jane', age=28}
+лист. 23, 2025 1:04:32 ДП DataReader readPersons
+INFO: Finished reading file: C:\Users\Yurii\AppData\Local\Temp\test_persons4540060991018061684.csv, loaded persons: 2
+лист. 23, 2025 1:04:32 ДП DataReader readPersons
+FINE: Closed file: C:\Users\Yurii\AppData\Local\Temp\test_persons4540060991018061684.csv
+лист. 23, 2025 1:04:36 ДП Person <init>
+INFO: Created Person: Person{id=1, name='Frank', age=0}
+лист. 23, 2025 1:04:36 ДП Person <init>
+INFO: Created Person: Person{id=2, name='Grace', age=150}
+лист. 23, 2025 1:04:36 ДП Person <init>
+INFO: Created Person: Person{id=1, name='John Doe', age=30}
+лист. 23, 2025 1:04:36 ДП Person <init>
+INFO: Created Person: Person{id=1, name='Alice', age=25}
+лист. 23, 2025 1:04:36 ДП Person <init>
+INFO: Created Person: Person{id=42, name='Henry', age=33}
+лист. 23, 2025 1:04:36 ДП DataReader readPersons
+INFO: Opening file: nonexistent_file.csv
+лист. 23, 2025 1:04:36 ДП DataReader readPersons
+SEVERE: File not found: nonexistent_file.csv - nonexistent_file.csv (The system cannot find the file specified)
+java.io.FileNotFoundException: nonexistent_file.csv (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at DataReader.readPersons(DataReader.java:18)
+	at DataReaderTest.testReadPersonsFileNotFound(DataReaderTest.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+лист. 23, 2025 1:04:36 ДП DataReader readPersons
+INFO: Opening file: C:\Users\Yurii\AppData\Local\Temp\test_persons16068007377996080789.csv
+лист. 23, 2025 1:04:36 ДП DataReader readPersons
+INFO: Finished reading file: C:\Users\Yurii\AppData\Local\Temp\test_persons16068007377996080789.csv, loaded persons: 0
+лист. 23, 2025 1:04:36 ДП DataReader readPersons
+FINE: Closed file: C:\Users\Yurii\AppData\Local\Temp\test_persons16068007377996080789.csv
+лист. 23, 2025 1:04:36 ДП DataReader readPersons
+INFO: Opening file: C:\Users\Yurii\AppData\Local\Temp\test_persons15719371508247586981.csv
+лист. 23, 2025 1:04:36 ДП Person <init>
+INFO: Created Person: Person{id=1, name='Alice', age=25}
+лист. 23, 2025 1:04:36 ДП Person <init>
+INFO: Created Person: Person{id=2, name='Bob', age=30}
+лист. 23, 2025 1:04:36 ДП DataReader readPersons
+INFO: Finished reading file: C:\Users\Yurii\AppData\Local\Temp\test_persons15719371508247586981.csv, loaded persons: 2
+лист. 23, 2025 1:04:36 ДП DataReader readPersons
+FINE: Closed file: C:\Users\Yurii\AppData\Local\Temp\test_persons15719371508247586981.csv
+лист. 23, 2025 1:04:36 ДП DataReader readPersons
+INFO: Opening file: C:\Users\Yurii\AppData\Local\Temp\test_persons5107813841675235266.csv
+лист. 23, 2025 1:04:36 ДП Person <init>
+INFO: Created Person: Person{id=1, name='Alice', age=25}
+лист. 23, 2025 1:04:36 ДП Person <init>
+INFO: Created Person: Person{id=2, name='Bob', age=30}
+лист. 23, 2025 1:04:36 ДП DataReader readPersons
+INFO: Finished reading file: C:\Users\Yurii\AppData\Local\Temp\test_persons5107813841675235266.csv, loaded persons: 2
+лист. 23, 2025 1:04:36 ДП DataReader readPersons
+FINE: Closed file: C:\Users\Yurii\AppData\Local\Temp\test_persons5107813841675235266.csv
+лист. 23, 2025 1:04:36 ДП DataReader readPersons
+INFO: Opening file: C:\Users\Yurii\AppData\Local\Temp\test_persons16581985595933428391.csv
+лист. 23, 2025 1:04:36 ДП Person <init>
+INFO: Created Person: Person{id=1, name='Alice', age=25}
+лист. 23, 2025 1:04:36 ДП DataReader readPersons
+WARNING: Skipping malformed line 2: invalid,line
+лист. 23, 2025 1:04:36 ДП Person <init>
+INFO: Created Person: Person{id=2, name='Bob', age=30}
+лист. 23, 2025 1:04:36 ДП DataReader readPersons
+WARNING: Skipping invalid line 4: Age must be between 0 and 150, got: 999
+лист. 23, 2025 1:04:36 ДП DataReader readPersons
+INFO: Finished reading file: C:\Users\Yurii\AppData\Local\Temp\test_persons16581985595933428391.csv, loaded persons: 2
+лист. 23, 2025 1:04:36 ДП DataReader readPersons
+FINE: Closed file: C:\Users\Yurii\AppData\Local\Temp\test_persons16581985595933428391.csv
+лист. 23, 2025 1:04:36 ДП DataReader readPersons
+INFO: Opening file: C:\Users\Yurii\AppData\Local\Temp\test_persons11747552882323485386.csv
+лист. 23, 2025 1:04:36 ДП Person <init>
+INFO: Created Person: Person{id=1, name='John Doe', age=35}
+лист. 23, 2025 1:04:36 ДП Person <init>
+INFO: Created Person: Person{id=2, name='Jane', age=28}
+лист. 23, 2025 1:04:36 ДП DataReader readPersons
+INFO: Finished reading file: C:\Users\Yurii\AppData\Local\Temp\test_persons11747552882323485386.csv, loaded persons: 2
+лист. 23, 2025 1:04:36 ДП DataReader readPersons
+FINE: Closed file: C:\Users\Yurii\AppData\Local\Temp\test_persons11747552882323485386.csv
+лист. 23, 2025 1:05:06 ДП Main main
+INFO: Starting data read from: data.csv
+лист. 23, 2025 1:05:06 ДП DataReader readPersons
+INFO: Opening file: data.csv
+лист. 23, 2025 1:05:06 ДП Person <init>
+INFO: Created Person: Person{id=1, name='John Doe', age=28}
+лист. 23, 2025 1:05:06 ДП Person <init>
+INFO: Created Person: Person{id=2, name='Jane Smith', age=35}
+лист. 23, 2025 1:05:06 ДП DataReader readPersons
+WARNING: Skipping malformed line 4: invalid,line
+лист. 23, 2025 1:05:06 ДП DataReader readPersons
+WARNING: Skipping invalid line 5: Age must be between 0 and 150, got: 999
+лист. 23, 2025 1:05:06 ДП Person <init>
+INFO: Created Person: Person{id=4, name='Anna', age=22}
+лист. 23, 2025 1:05:06 ДП DataReader readPersons
+INFO: Finished reading file: data.csv, loaded persons: 3
+лист. 23, 2025 1:05:06 ДП DataReader readPersons
+FINE: Closed file: data.csv
+лист. 23, 2025 1:05:06 ДП Main main
+INFO: Successfully created 3 Person objects.
+лист. 23, 2025 1:05:06 ДП Main main
+INFO: Main finished execution (finally).
+
+лист. 23, 2025 1:05:06 ДП TestRunner runAll
+INFO: Starting tests...
+лист. 23, 2025 1:05:06 ДП Person <init>
+INFO: Created Person: Person{id=1, name='Alice', age=30}
+лист. 23, 2025 1:05:06 ДП TestRunner runAll
+INFO: testPersonCreationValid passed
+лист. 23, 2025 1:05:06 ДП TestRunner testPersonCreationInvalid
+FINE: Received expected InvalidDataException: ID must be positive, got: -1
+лист. 23, 2025 1:05:06 ДП TestRunner runAll
+INFO: testPersonCreationInvalid passed
+лист. 23, 2025 1:05:06 ДП DataReader readPersons
+INFO: Opening file: data.csv
+лист. 23, 2025 1:05:06 ДП Person <init>
+INFO: Created Person: Person{id=1, name='John Doe', age=28}
+лист. 23, 2025 1:05:06 ДП Person <init>
+INFO: Created Person: Person{id=2, name='Jane Smith', age=35}
+лист. 23, 2025 1:05:06 ДП DataReader readPersons
+WARNING: Skipping malformed line 4: invalid,line
+лист. 23, 2025 1:05:06 ДП DataReader readPersons
+WARNING: Skipping invalid line 5: Age must be between 0 and 150, got: 999
+лист. 23, 2025 1:05:06 ДП Person <init>
+INFO: Created Person: Person{id=4, name='Anna', age=22}
+лист. 23, 2025 1:05:06 ДП DataReader readPersons
+INFO: Finished reading file: data.csv, loaded persons: 3
+лист. 23, 2025 1:05:06 ДП DataReader readPersons
+FINE: Closed file: data.csv
+лист. 23, 2025 1:05:06 ДП TestRunner runAll
+INFO: testDataReaderParsing passed
+лист. 23, 2025 1:05:06 ДП TestRunner runAll
+INFO: Tests finished. Passed: 3, Failed: 0
